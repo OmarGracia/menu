@@ -1,6 +1,6 @@
 # 🖥️ Proyecto: Menú Interactivo con Flask y Bootstrap
 
-**Autor:** Onar Gutierrez Gracia
+**Autor:** Omar Gutierrez Gracia
 
 ---
 
@@ -10,8 +10,7 @@ Este repositorio contiene una aplicación web desarrollada en Python utilizando 
 ---
 
 ## ¿Qué hace esta app?
-- Presenta un menú horizontal en la parte superior de la página.
-- Permite navegar por diferentes niveles de submenús.
+- Presenta un menú horizontal y submenus desplegables.
 - El menú se adapta automáticamente a cualquier cambio en la estructura de datos.
 - El diseño es limpio, profesional y compatible con dispositivos móviles.
 
@@ -31,10 +30,7 @@ Este repositorio contiene una aplicación web desarrollada en Python utilizando 
 - (Recomendado) Crea un entorno virtual:
   ```bash
   python -m venv entorno
-  # Windows:
-  entorno\Scripts\activate
-  # Linux/Mac:
-  source entorno/bin/activate
+ 
   ```
 
 ### 2. Instala las dependencias necesarias
@@ -92,12 +88,6 @@ http://localhost:5000/
 **¿Puedo agregar más niveles de submenú?**
 > ¡Por supuesto! El menú es recursivo y soporta cualquier profundidad.
 
----
 
-## Créditos y agradecimientos
-- Bootstrap (https://getbootstrap.com/)
-- Flask (https://flask.palletsprojects.com/)
 
----
 
-¿Tienes dudas o sugerencias? ¡Abre un issue o contáctame!
